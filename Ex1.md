@@ -16,6 +16,10 @@ To write a C++ program that reads two sequences of character values (strings) fr
 5.Stop the program.
 ## Program:
 ```
+Malarvizhi G
+212222040096
+```
+```
 #include <iostream>
 using namespace std;
 int main(){

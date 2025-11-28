@@ -1,6 +1,6 @@
 # Ex.No:3
 # Ex.Name:Write a C++ program to read the product details using the constructor and display them using a member function.
-## Date:08.09.2025
+## Date:
 ## Aim:
 To write a C++ program that reads product details such as product name, brand, and product serial number using a constructor, and displays them using a member function.
 
@@ -19,10 +19,6 @@ To write a C++ program that reads product details such as product name, brand, a
 
 
 ## Program:
-```
-Malarvizhi G
-212222040096
-```
 ```
 #include<iostream>
 using namespace std;

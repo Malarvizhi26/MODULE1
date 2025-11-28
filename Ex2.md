@@ -1,6 +1,6 @@
 # Ex.No2
 # Ex.Name:Write a program in C++ to convert temperature in Fahrenheit to Celsius using class methods(define member as private & define methods within class)
-## Date: 08-09-2025
+## Date: 01-09-2025
 
 ## Aim:
 To write a C++ program that converts temperature from Celsius to Fahrenheit using class concepts with private data members and methods defined inside the class.
@@ -18,10 +18,6 @@ To write a C++ program that converts temperature from Celsius to Fahrenheit usin
 
 
 ## Program:
-```
-Malarvizhi G
-212222040096
-```
 ```
 #include <iostream>
 using namespace std;

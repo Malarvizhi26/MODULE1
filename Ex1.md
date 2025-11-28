@@ -1,45 +1,76 @@
 # Ex.No:1
-# Ex.Name:Write a C++ Program to read two sequence of character  value from the keyboard and display the value on the monitor?
-## Date: 08-09-2025
+# Ex.Name:Write a C++ program to find the minimum of two and three numbers using construction overloading, pass values during compile time.
+## Date:
 ## Aim:
-To write a C++ program that reads two sequences of character values (strings) from the keyboard and displays them on the monitor.
+Write a C++ program to find the minimum of two and three numbers using construction overloading, pass values during compile time.
 
 ## Algorithm:
-1.Start the program.
+Step 1: Start the program.
+Step 2: Create a class Minimum.
+Step 3: Inside the class, define:
 
-2.Declare two string variables to store the character sequences.
+Two data members for two numbers.
 
-3.Read input from the user for both strings using cin.
+Three data members for three numbers.
 
-4.Display the values of the two strings using cout.
+Two constructors:
 
-5.Stop the program.
+Constructor 1: Accepts two numbers.
+
+Constructor 2: Accepts three numbers.
+
+Step 4: In Constructor 1:
+
+Compare the two numbers.
+
+Store or display the minimum.
+
+Step 5: In Constructor 2:
+
+Compare the three numbers.
+
+Store or display the minimum.
+
+Step 6: In main():
+
+Create an object of Minimum with two values (compile-time initialization).
+
+Create another object of Minimum with three values.
+
+Step 7: End the program.
+
 ## Program:
-```
-Malarvizhi G
-212222040096
-```
-```
-#include <iostream>
+#include<iostream>
 using namespace std;
+class Arithmetic{
+  public:
+  Arithmetic(int a,int b){
+      if(a>b){
+          cout << b << " is lesser" << endl;
+      }
+  }
+  Arithmetic(int a,int b,int c){
+      if(a>b && c>b){
+          cout << b << " is lesser" << endl;
+      }
+      else if(b>a && c>a){
+          cout << a << " is lesser" << endl;
+      }
+      else {
+          cout << c << " is lesser" <<  endl;
+      }
+  }
+};
+
 int main(){
-    string first,second;
-    cin >> first >> second;
-    
-    cout << "First Value is:" << first << endl;
-    cout << "Second Value is:" << second << endl;
+    Arithmetic ar(95,64);
+    Arithmetic ar1(22,28,21);
+    return 0;
 }
-```
-
-
-
-
-
 
 ## Output:
-<img width="1189" height="460" alt="Screenshot 2025-09-01 091917" src="https://github.com/user-attachments/assets/ae862f9c-4c87-4b61-9f3b-e356982d19a2" />
-
-
-
+<img width="1037" height="349" alt="image" src="https://github.com/user-attachments/assets/1769d4fd-bf84-4f1c-b836-798314a15444" />
 ## Result:
-Thus the Program to read two sequence of character  value from the keyboard and display the value on the monitor has been executed successfully
+Hence the program is executed successfully.
+
+

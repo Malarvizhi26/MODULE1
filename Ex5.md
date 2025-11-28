@@ -1,6 +1,6 @@
 # Ex.No:5
 # Ex.Name:Write a C++ program using friend function to find the minimum integer value  among the member of both the classes.
-## Date: 08-09-2025
+## Date: 01-09-2025
 ## Aim:
 To write a C++ program that demonstrates the use of a friend function to access private data members of two different classes and find the minimum integer value among them.
 ## Algorithm:
@@ -18,10 +18,6 @@ To write a C++ program that demonstrates the use of a friend function to access 
 
 
 ## Program:
-```
-Malarvizhi G
-212222040096
-```
 ```
 #include <iostream>
 using namespace std;

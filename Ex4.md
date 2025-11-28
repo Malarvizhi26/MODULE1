@@ -1,6 +1,6 @@
 # Ex.No:4
 # Ex.Name: Write a program in C++ to compute quotient and remainder using class methods(define methods outside class)
-## Date:08.09.2025
+## Date:
 ## Aim:
 To write a C++ program to compute the quotient and remainder using class methods defined outside the class.
 
@@ -16,10 +16,6 @@ To write a C++ program to compute the quotient and remainder using class methods
 7. End the program.
 
 ## Program:
-```
-Malarvizhi G
-212222040096
-```
 ```cpp
 #include <iostream>
 using namespace std;
